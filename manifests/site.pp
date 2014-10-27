@@ -75,6 +75,9 @@ node default {
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
+  # max stuff
+  include firefox
+
   # common, useful packages
   package {
     [
